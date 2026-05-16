@@ -72,18 +72,18 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
             <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
                 class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
-                style="background:#F4DBD8"
+                style="background:#F4E3D8"
                 aria-hidden="true"
               />
-              #F4DBD8 · 60%
+              #F4E3D8 · 60%
             </span>
             <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
                 class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
-                style="background:#412A16"
+                style="background:#413416"
                 aria-hidden="true"
               />
-              #412A16 · 30%
+              #413416 · 30%
             </span>
             <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
