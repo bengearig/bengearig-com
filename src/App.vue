@@ -17,6 +17,6 @@ import ContactSection from '@/components/sections/ContactSection.vue'
     <ContactSection />
   </main>
   <footer class="border-t border-[var(--color-border)] py-8 text-center text-sm opacity-70">
-    © {{ new Date().getFullYear() }} [YOUR NAME]. Built with Vue + Tailwind.
+    © {{ new Date().getFullYear() }} Benjamin Gearig. Built with Vue + Tailwind.
   </footer>
 </template>

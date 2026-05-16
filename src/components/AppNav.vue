@@ -34,7 +34,7 @@ onBeforeUnmount(() => window.removeEventListener('resize', onResize))
         class="font-display text-xl font-bold tracking-tight hover:text-[var(--color-accent)]"
         @click="close"
       >
-        [YOUR NAME]
+        Benjamin Gearig
       </a>
 
       <ul class="hidden items-center gap-8 md:flex">

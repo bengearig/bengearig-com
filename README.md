@@ -31,7 +31,7 @@ yarn preview     # serve dist/
 
 ## Content
 
-All copy is placeholder. Search the codebase for `[YOUR NAME]`, `[BIO`, `[PROJECT`, `[ROLE`,
+All copy is placeholder. Search the codebase for `Benjamin Gearig`, `[BIO`, `[PROJECT`, `[ROLE`,
 `[TAGLINE`, `[USERNAME]`, `[Tag]`, `[COMPANY]`, `[YYYY]` and replace.
 
 Sections live in `src/components/sections/`:

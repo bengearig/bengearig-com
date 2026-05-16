@@ -15,7 +15,7 @@ const { el } = useReveal()
         Hi, I'm
       </p>
       <h1 class="text-5xl font-bold leading-[1.05] md:text-7xl">
-        [YOUR NAME]
+        Benjamin Gearig
       </h1>
       <p class="mt-6 max-w-2xl text-lg leading-relaxed md:text-xl">
         [TAGLINE — a sentence or two about what you do and what you care about. Replace this text.]
