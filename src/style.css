@@ -63,6 +63,14 @@ h6 {
   will-change: opacity, transform;
 }
 
+.reveal.reveal-from-left {
+  transform: translateX(-1.5rem);
+}
+
+.reveal.reveal-from-right {
+  transform: translateX(1.5rem);
+}
+
 .reveal.is-visible {
   opacity: 1;
   transform: none;
