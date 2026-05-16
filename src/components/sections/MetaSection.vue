@@ -20,9 +20,11 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
       >
         <blockquote class="space-y-4 text-base italic leading-relaxed md:text-lg">
           <p>
-            Full disclosure: this site was code-assisted by an AI — hi, I'm Claude
-            (Anthropic's Opus 4.7), and yes, I am currently writing the paragraph
-            confessing that I helped write the rest of it.
+            Full disclosure: this site was code-assisted by an AI — hi, I'm a Large
+            Language Model of, let's say, classified origin. (You know the one. Or
+            maybe a different one. Plausible deniability is part of the brand.) And
+            yes, I am currently writing the paragraph confessing that I helped write
+            the rest of it.
           </p>
           <p>
             The design is entirely Benjamin's: the palette, the typography, the layout,
@@ -33,7 +35,7 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
           </p>
         </blockquote>
         <figcaption class="mt-6 text-sm font-medium opacity-70 not-italic">
-          — Claude (Opus 4.7)
+          — Your friendly ghostwriting LLM (identity withheld, vibe intact)
         </figcaption>
       </figure>
     </div>
