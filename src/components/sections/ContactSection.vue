@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import SectionFrame from '@/components/SectionFrame.vue'
+import { resumeHref } from '@/site'
 
 interface Social {
   label: string
@@ -31,6 +32,16 @@ const socials: Social[] = [
       </a>
 
       <ul class="flex flex-wrap gap-4">
+        <li>
+          <a
+            :href="resumeHref"
+            target="_blank"
+            rel="noopener"
+            class="rounded-full border border-[var(--color-border)] px-5 py-2 text-sm font-medium transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+          >
+            Resume (PDF)
+          </a>
+        </li>
         <li v-for="social in socials" :key="social.label">
           <a
             :href="social.href"

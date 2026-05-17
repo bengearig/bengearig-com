@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useReveal } from '@/composables/useReveal'
+import { resumeHref } from '@/site'
 
 const { el } = useReveal()
 </script>
@@ -33,6 +34,14 @@ const { el } = useReveal()
           class="rounded-full border border-[var(--color-border)] px-6 py-3 text-sm font-semibold transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
         >
           Get in touch
+        </a>
+        <a
+          :href="resumeHref"
+          target="_blank"
+          rel="noopener"
+          class="rounded-full border border-[var(--color-border)] px-6 py-3 text-sm font-semibold transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+        >
+          Resume (PDF)
         </a>
       </div>
     </div>
