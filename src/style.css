@@ -19,15 +19,15 @@
   --font-body: 'Quicksand', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
-/* Dark mode — auto from system preference */
+/* Dark mode — auto from system preference. Tokens derive from brand palette vars. */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #18100a;
-    --color-fg: #f4e3d8;
-    --color-accent: #487689;
-    --color-muted: color-mix(in oklab, #f4e3d8 60%, #18100a);
-    --color-surface: color-mix(in oklab, #18100a 90%, #f4e3d8);
-    --color-border: color-mix(in oklab, #f4e3d8 25%, #18100a);
+    --color-bg: color-mix(in oklab, var(--color-walnut) 50%, black);
+    --color-fg: var(--color-cream);
+    --color-accent: var(--color-sky);
+    --color-muted: color-mix(in oklab, var(--color-cream) 60%, var(--color-bg));
+    --color-surface: color-mix(in oklab, var(--color-bg) 90%, var(--color-cream));
+    --color-border: color-mix(in oklab, var(--color-cream) 25%, var(--color-bg));
   }
 }
 
