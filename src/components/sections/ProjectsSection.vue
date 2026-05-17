@@ -10,10 +10,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: '[PROJECT ONE]',
-    blurb: '[One-sentence description of what it is and why it matters.]',
+    title: 'iSafety Patrol',
+    blurb: 'Roadside warning device that detects oncoming collision risks and gives workers the seconds they need to move clear.',
     href: '#',
-    tags: ['[Tag]', '[Tag]'],
+    tags: ['Embedded C', 'Hardware', 'Sensors', 'Worker Safety'],
   },
   {
     title: '[PROJECT TWO]',
