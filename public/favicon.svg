@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#413416"/>
+  <rect width="64" height="64" rx="14" fill="#412A16"/>
   <text
     x="50%"
     y="54%"
@@ -8,7 +8,7 @@
     font-family="Georgia, 'Times New Roman', serif"
     font-size="34"
     font-weight="700"
-    fill="#F4E3D8"
+    fill="#F4DBD8"
   >B</text>
   <circle cx="50" cy="14" r="5" fill="#487689"/>
 </svg>

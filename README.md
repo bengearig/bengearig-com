@@ -12,7 +12,7 @@ Personal single-page site for [bengearig.com](https://bengearig.com).
 
 ## Design
 
-- 60/30/10 palette: `#F4E3D8` cream (60%), `#413416` walnut (30%), `#487689` sky (10%)
+- 60/30/10 palette: `#F4DBD8` cream (60%), `#412A16` walnut (30%), `#487689` sky (10%)
 - Fonts: Finlandica Headline (titles), Quicksand (body) — both from Google Fonts
 - Auto dark mode from `prefers-color-scheme`
 - Respects `prefers-reduced-motion` (no fade-ins, no smooth scroll)

@@ -60,50 +60,40 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
         >
           <p>
             The 60/30/10 palette wasn't sampled from a tool. I pulled it straight from
-            this engagement photo — the sun-warmed linen of late afternoon, the
-            heirloom walnut woven through every shadow, and the far-hills slate doing
-            quiet work at the edges of the frame.
+            this engagement photo — the soft cream, the deep walnut, and the muted blue
+            all live here first.
           </p>
           <p>
             I wanted the site to feel like that afternoon: warm, grounded, a little
             windswept. The colors are doing the same job they were already doing in the
             photo, just on a different surface.
           </p>
-          <dl class="grid gap-4 pt-2 sm:grid-cols-3">
-            <div class="flex items-center gap-3">
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
-                class="block h-7 w-7 rounded-full border border-[var(--color-border)]"
-                style="background:#F4E3D8"
+                class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
+                style="background:#F4DBD8"
                 aria-hidden="true"
               />
-              <div class="leading-tight">
-                <dt class="text-sm font-semibold">Sun-warmed Linen</dt>
-                <dd class="text-xs font-mono opacity-60">#F4E3D8 · 60%</dd>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
+              #F4DBD8 · 60%
+            </span>
+            <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
-                class="block h-7 w-7 rounded-full border border-[var(--color-border)]"
-                style="background:#413416"
+                class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
+                style="background:#412A16"
                 aria-hidden="true"
               />
-              <div class="leading-tight">
-                <dt class="text-sm font-semibold">Heirloom Walnut</dt>
-                <dd class="text-xs font-mono opacity-60">#413416 · 30%</dd>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
+              #412A16 · 30%
+            </span>
+            <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
-                class="block h-7 w-7 rounded-full border border-[var(--color-border)]"
+                class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
                 style="background:#487689"
                 aria-hidden="true"
               />
-              <div class="leading-tight">
-                <dt class="text-sm font-semibold">Far-Hills Slate</dt>
-                <dd class="text-xs font-mono opacity-60">#487689 · 10%</dd>
-              </div>
-            </div>
-          </dl>
+              #487689 · 10%
+            </span>
+          </div>
         </figcaption>
       </figure>
     </div>
