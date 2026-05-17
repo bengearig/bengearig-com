@@ -60,30 +60,30 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
         >
           <p>
             The 60/30/10 palette wasn't sampled from a tool. I pulled it straight from
-            this engagement photo — the soft cream, the deep walnut, and the muted blue
-            all live here first.
+            this engagement photo — dim cream washing the back wall, scuffed walnut on
+            the booth, blue from my suit sitting against the backdrop.
           </p>
           <p>
-            I wanted the site to feel like that afternoon: warm, grounded, a little
-            windswept. The colors are doing the same job they were already doing in the
-            photo, just on a different surface.
+            I wanted the site to feel like that bar: a little grimy, a little hip, high
+            ceilings and the right kind of crowd. The colors are doing the same job they
+            were already doing under that low light, just on a different surface.
           </p>
           <div class="flex flex-wrap items-center gap-4 pt-2">
             <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
                 class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
-                style="background:#F4DBD8"
+                style="background:#F4E3D8"
                 aria-hidden="true"
               />
-              #F4DBD8 · 60%
+              #F4E3D8 · 60%
             </span>
             <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span
                 class="inline-block h-5 w-5 rounded-full border border-[var(--color-border)]"
-                style="background:#412A16"
+                style="background:#413416"
                 aria-hidden="true"
               />
-              #412A16 · 30%
+              #413416 · 30%
             </span>
             <span class="inline-flex items-center gap-3 text-sm font-medium">
               <span

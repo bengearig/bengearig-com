@@ -2,8 +2,8 @@
 
 @theme {
   /* Brand palette (60/30/10) */
-  --color-cream: #f4dbd8; /* 60% */
-  --color-walnut: #412a16; /* 30% */
+  --color-cream: #f4e3d8; /* 60% */
+  --color-walnut: #413416; /* 30% */
   --color-sky: #487689; /* 10% */
 
   /* Semantic tokens — light (default) */
@@ -23,11 +23,11 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: #18100a;
-    --color-fg: #f4dbd8;
+    --color-fg: #f4e3d8;
     --color-accent: #487689;
-    --color-muted: color-mix(in oklab, #f4dbd8 60%, #18100a);
-    --color-surface: color-mix(in oklab, #18100a 90%, #f4dbd8);
-    --color-border: color-mix(in oklab, #f4dbd8 25%, #18100a);
+    --color-muted: color-mix(in oklab, #f4e3d8 60%, #18100a);
+    --color-surface: color-mix(in oklab, #18100a 90%, #f4e3d8);
+    --color-border: color-mix(in oklab, #f4e3d8 25%, #18100a);
   }
 }
 
