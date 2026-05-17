@@ -7,8 +7,8 @@ const links = [
   { id: 'about', label: 'About' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
-  { id: 'contact', label: 'Contact' },
   { id: 'meta', label: 'Meta' },
+  { id: 'contact', label: 'Contact' },
 ] as const
 
 const { activeId } = useScrollSpy(links.map((l) => l.id))

@@ -15,8 +15,8 @@ import MetaSection from '@/components/sections/MetaSection.vue'
     <AboutSection />
     <ProjectsSection />
     <ExperienceSection />
-    <ContactSection />
     <MetaSection />
+    <ContactSection />
   </main>
   <footer class="border-t border-[var(--color-border)] py-8 text-center text-sm opacity-70">
     © {{ new Date().getFullYear() }} Benjamin Gearig. Built with Vue + Tailwind.
