@@ -41,10 +41,10 @@ const projects: Project[] = [
     slug: 'fraud-detection-system',
     title: 'Fraud Detection System',
     blurb:
-      'Document-authenticity pipeline that uses frontier LLM models to catch fraudulent trailing documents before it costs the business.',
+      'Document-authenticity pipeline that uses frontier LLM models to catch fraudulent trailing documents before they cost the business.',
     tags: ['LLMs', 'Fraud Detection', 'Document Verification', 'Risk'],
     description:
-      'Fraud Detection System is a platform designed for operations and risk teams. It ingests trailing documents submitted after a transaction closes, routes them through frontier LLM models that interrogate authenticity signals, and surfaces likely forgeries to human reviewers before payouts go out the door. Caught enough forged paper in the first year to save the company millions.',
+      'Fraud Detection System is a platform designed for insurance underwriters. It ingests trailing documents submitted by the insured, routes them through frontier LLM models that interrogate authenticity signals, and surfaces likely forgeries to human reviewers before premiums leak out the door. Caught enough fraud in the first year to save the company millions.',
   },
 ]
 

@@ -10,22 +10,18 @@ interface Role {
 
 const roles: Role[] = [
   {
-    title: '[ROLE TITLE]',
-    org: '[COMPANY]',
-    period: '[YYYY] — Present',
-    blurb: '[What you do here. One or two sentences.]',
+    title: 'Full Stack Software Developer · Innovation Team',
+    org: 'AAA (ACG Labs)',
+    period: '2023 — Present',
+    blurb:
+      'Build LLM-driven internal platforms — fraud detection for insurance underwriters, end-to-end SDLC automation with human-in-the-loop feedback gates — alongside embedded safety hardware like a roadside collision-warning unit for road crews.',
   },
   {
-    title: '[ROLE TITLE]',
-    org: '[COMPANY]',
-    period: '[YYYY] — [YYYY]',
-    blurb: '[What you did here. One or two sentences.]',
-  },
-  {
-    title: '[ROLE TITLE]',
-    org: '[COMPANY]',
-    period: '[YYYY] — [YYYY]',
-    blurb: '[What you did here. One or two sentences.]',
+    title: 'Software Engineer and Consultant',
+    org: 'Gearig Software and Consulting',
+    period: '2013 — 2023',
+    blurb:
+      'Built warehouse fulfillment software end-to-end — a novel bin-packing algorithm paired with reverse-engineered shipping-rate APIs to box every order at lowest cost, a path-finding system that cut picker travel by 4+ hours a week, and a battery-backed distributed printing stack with custom drivers, device failover, and power-outage resilience.',
   },
 ]
 </script>

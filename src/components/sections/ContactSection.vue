@@ -19,7 +19,9 @@ const socials: Social[] = [
 <template>
   <SectionFrame id="contact" eyebrow="Contact" title="Say hello">
     <p class="max-w-2xl text-lg leading-relaxed">
-      The best way to reach me is by email. I'm also around on the links below.
+      The best way to reach me is by email. I'm also around on the links below. If
+      you reach out, mention you found me here — I like knowing the site is doing
+      its job.
     </p>
 
     <div class="mt-10 flex flex-col gap-6">
