@@ -12,7 +12,6 @@ const email = 'contact@bengearig.com'
 const socials: Social[] = [
   { label: 'GitHub', href: 'https://github.com/bengearig' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/benjamin-gearig-16604a257' },
-  { label: 'X / Twitter', href: 'https://x.com/[USERNAME]' },
 ]
 </script>
 
