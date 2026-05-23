@@ -11,8 +11,12 @@ const { el } = useReveal()
 </script>
 
 <template>
-  <section :id="id" ref="el" class="reveal py-24 md:py-32">
-    <div class="mx-auto max-w-5xl px-6">
+  <section
+    :id="id"
+    ref="el"
+    class="reveal grid min-h-[calc(100svh-4rem)] content-center py-24 md:py-32"
+  >
+    <div class="mx-auto w-full max-w-5xl px-6">
       <p
         v-if="eyebrow"
         class="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--color-accent)]"

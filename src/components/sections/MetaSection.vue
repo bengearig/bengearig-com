@@ -9,8 +9,12 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
 </script>
 
 <template>
-  <section id="meta" ref="aiNoteEl" class="reveal py-24 md:py-32">
-    <div class="mx-auto max-w-3xl px-6">
+  <section
+    id="meta"
+    ref="aiNoteEl"
+    class="reveal grid min-h-[calc(100svh-4rem)] content-center py-24 md:py-32"
+  >
+    <div class="mx-auto w-full max-w-3xl px-6">
       <p class="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--color-accent)]">
         Meta
       </p>
@@ -42,8 +46,8 @@ const photoSrc = `${import.meta.env.BASE_URL}engagement-photo.jpg`
     </div>
   </section>
 
-  <section class="pb-24 md:pb-32">
-    <div class="mx-auto max-w-6xl px-6">
+  <section class="grid min-h-[calc(100svh-4rem)] content-center pb-24 md:pb-32">
+    <div class="mx-auto w-full max-w-6xl px-6">
       <figure class="grid items-center gap-10 md:grid-cols-[2fr_3fr] md:gap-14">
         <div ref="photoEl" class="reveal reveal-from-left">
           <img
