@@ -22,9 +22,9 @@ const photoSrc = `${import.meta.env.BASE_URL}benjamin-gearig.jpg`
           device. Fifteen years on, equally at home in Go, Python, or embedded C.
         </p>
         <p>
-          Outside the editor: engineering household solutions with a Bambu Lab P1S and
-          the occasional soldering iron, growing a record collection for my Fluance RT82,
-          hunting the local food scene for the best meal I can find. I also hold strong
+          Outside the editor you may find me engineering household solutions with a Bambu Lab P1S and
+          the occasional soldering iron, listening to my growing record collection on my Fluance RT82 turntable,
+          or hunting the local food scene for the best meal I can find. I also hold strong
           opinions on product design and engineering, and I'm rarely shy about sharing
           them.
         </p>

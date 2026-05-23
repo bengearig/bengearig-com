@@ -19,8 +19,8 @@ const { el } = useReveal()
         Benjamin Gearig
       </h1>
       <p class="mt-6 max-w-2xl text-lg leading-relaxed md:text-xl">
-        Shipping production software, from firmware to the cloud. Lately, the systems
-        around frontier models — built to survive (and thrive) past the demo.
+        Shipping production software from firmware to the cloud. Lately, focusing on systems
+        around frontier models - built to survive (and thrive) past the demo.
       </p>
       <div class="mt-10 flex flex-wrap gap-4">
         <a
