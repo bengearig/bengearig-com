@@ -22,8 +22,8 @@ const { el } = useReveal()
         Shipping production software from firmware to the cloud.
       </p>
       <p class="mt-3 max-w-2xl text-base font-light leading-relaxed opacity-80 md:text-lg">
-        Lately, focusing on systems around frontier models - built to survive (and thrive)
-        past the demo.
+        Focusing on systems around frontier models that are built to survive (and thrive)
+        beyond the demo.
       </p>
       <div class="mt-10 flex flex-wrap gap-4">
         <a
