@@ -8,6 +8,7 @@ import ExperienceSection from '@/components/sections/ExperienceSection.vue'
 import ContactSection from '@/components/sections/ContactSection.vue'
 import MetaSection from '@/components/sections/MetaSection.vue'
 import CookieRecipe from '@/components/CookieRecipe.vue'
+import ThemeToggle from '@/components/ThemeToggle.vue'
 
 const cookieOpen = ref(false)
 
@@ -72,4 +73,5 @@ onBeforeUnmount(() => {
     </button>
   </footer>
   <CookieRecipe :is-open="cookieOpen" @close="closeCookie" />
+  <ThemeToggle />
 </template>
