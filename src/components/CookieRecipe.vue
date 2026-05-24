@@ -66,31 +66,47 @@ function onClose() {
           :id="titleId"
           class="pr-10 text-2xl font-semibold text-[var(--color-accent)] md:text-3xl"
         >
-          <span aria-hidden="true">🍪</span> Benjamin's Slightly Secret Cookie Recipe
+          <span aria-hidden="true">🍪</span> Slightly Secret Chocolate Chip Cookie Recipe
         </h2>
 
         <p class="mt-4 text-base italic leading-relaxed opacity-80">
-          [Short note about where the recipe came from / why it's slightly secret.]
+          Every ingredient and its amount was chosen on chemical merit — what each fat, sugar,
+          and leavener actually does to spread, chew, and crust at the temperatures
+          involved.
         </p>
 
         <section class="mt-6">
           <h3 class="mb-3 text-lg font-semibold">Ingredients</h3>
           <ul class="space-y-1.5 text-base leading-relaxed">
-            <li>[INGREDIENT 1]</li>
-            <li>[INGREDIENT 2]</li>
-            <li>[INGREDIENT 3]</li>
-            <li>[INGREDIENT 4]</li>
-            <li>[INGREDIENT 5]</li>
+            <li>150g unsalted butter (room temperature)</li>
+            <li>50g vegetable shortening</li>
+            <li>150g granulated sugar</li>
+            <li>150g dark brown sugar</li>
+            <li>2 large eggs (room temperature)</li>
+            <li>2 tsp vanilla extract</li>
+            <li>360g all-purpose flour</li>
+            <li>1 tsp table salt or sea salt</li>
+            <li>1 tsp baking soda</li>
+            <li>¼ tsp baking powder</li>
+            <li>250g semisweet chocolate chips</li>
           </ul>
         </section>
 
         <section class="mt-6">
           <h3 class="mb-3 text-lg font-semibold">Method</h3>
           <ol class="list-inside list-decimal space-y-2 text-base leading-relaxed">
-            <li>[STEP 1]</li>
-            <li>[STEP 2]</li>
-            <li>[STEP 3]</li>
-            <li>[STEP 4]</li>
+            <li>Combine the flour, salt, baking soda, and baking powder in a bowl with a whisk and set aside.</li>
+            <li>Cream the butter, shortening, and both sugars together with a mixer fitted with a whisk attachment for 3 to 5 minutes.</li>
+            <li>Continue mixing while adding the eggs one at a time, fully incorporating each egg before adding the next.</li>
+            <li>Add the vanilla extract and mix until combined.</li>
+            <li>Swap the whisk for a flat beater and slowly incorporate the flour mixture on low speed until combined.</li>
+            <li>Add the chocolate chips and mix by hand with a wooden spoon or silicone spatula until just combined.</li>
+            <li>Cover the dough and chill in the refrigerator for at least one hour before baking.</li>
+            <li>Preheat the oven to 350°F.</li>
+            <li>While the oven preheats, portion the dough onto a baking sheet, no more than 12 cookies per sheet, each weighing 20–40g (¾ to 1½ oz).</li>
+            <li>Bake for 9 to 11 minutes.</li>
+            <li>Pull the sheet from the oven and rest the cookies on it for another 2 minutes, then transfer them to a wire rack with a spatula to finish cooling.</li>
+            <li>Enjoy.</li>
           </ol>
         </section>
       </article>
